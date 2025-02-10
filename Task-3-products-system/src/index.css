@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* ====== general-styles ====== */
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* ====== root-variables ====== */
+
+:root{
+
+    --dark-color: #323232;
+    --light-color: #FFFFFF;
+    --second-color: #FF7235;
+
+    --dark-color-opacity: rgba(50, 50, 50, 0.25);
+    --dark-color-dark-opacity: rgba(50, 50, 50, 0.5);
+
+}
+
+/* ====== scroll-bar-style ====== */
+
+::-webkit-scrollbar {
+
+    width: 5px;
+    background-color: var(--light-color);
+    transition: 0.3s;
+
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: var(--second-color);
+
+}
+
+/* ====== common-styles ====== */
+
+body{
+
+    font-family: "Quicksand", serif;
+    background-color: var(--light-color);
+
+}
+
+.common_container{
+
+    padding: 50px 4.5%;
+
+}

@@ -1,0 +1,121 @@
+.title_actions {
+
+    height: 40px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.time_btn {
+
+    height: 100%;
+    min-width: 180px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--second-color);
+    cursor: pointer;
+
+}
+
+.time_btn p {
+
+    font-size: 1.15rem;
+    color: var(--light-color);
+
+}
+
+.time_btn span {
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--light-color);
+
+}
+
+.time_btn svg {
+
+    font-size: 1.25rem;
+    color: var(--light-color);
+
+}
+
+.times_list {
+
+    position: absolute;
+    left: 0;
+    top: calc(100% + 10px);
+    width: 100%;
+    max-height: 350px;
+    border-radius: 6px;
+    background-color: var(--light-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+
+}
+
+.times_list li {
+
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--dark-color);
+    border-bottom: 1px solid var(--dark-color-opacity);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+
+        color: var(--light-color);
+        background-color: var(--second-color);
+
+    }
+
+    &:last-child {
+
+        border-bottom: none;
+
+    }
+
+}
+
+.chosen_time {
+
+    color: var(--light-color) !important;
+    background-color: var(--second-color) !important;
+
+}
+
+.arrowList {
+
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ====== responsive-style ====== */
+
+@media only screen and (max-width: 610px){
+
+    .title_actions{
+
+        width: 100%;
+
+    }
+
+    .time_btn{
+
+        min-width: 100%;
+
+    }
+
+}
