@@ -54,9 +54,9 @@ export default function Product() {
 
             {!proLoading && proData && <React.Fragment>
 
-                <div className='h-96 rounded-md shadow-[0_0px_10px_var(--opacity-gray-color)] overflow-hidden cursor-pointer'>
+                <div className='h-96 rounded-md shadow-[0_0px_10px_var(--opacity-gray-color)] overflow-hidden cursor-pointer max-[945px]:h-80'>
                     <Swiper slidesPerView={1} spaceBetween={10} pagination={{ clickable: true }} loop={true} autoplay={{ delay: 3000, disableOnInteraction: false }} modules={[Autoplay, Pagination]}>
-                        {proData.images.map((img, idx) => <SwiperSlide key={idx}><img className='h-96 max-w-full m-auto object-cover max-[945px]:h-fit' src={img} alt={img} /></SwiperSlide>)}
+                        {proData.images.map((img, idx) => <SwiperSlide key={idx}><img className='h-96 max-w-full m-auto object-cover max-[945px]:h-80' src={img} alt={img} /></SwiperSlide>)}
                     </Swiper>
                 </div>
 
