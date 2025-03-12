@@ -18,5 +18,5 @@
    VITE_API_URL=http://localhost:8000
    ```
 
-Now your project should be up and running!
+Now the project should be up and running!
 
