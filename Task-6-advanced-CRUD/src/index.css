@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+:root {
+
+    --red-color: #ff0000;
+    --blue-color: #305FA2;
+    --gray-color: #adb5bd;
+    --salt-color: #F7F8FA;
+    --black-color: #2D2D2D;
+    --white-color: #FFFFFF;
+    --green-color: #70e000;
+    --gray-color-1: #dee2e6;
+    --gray-color-2: #6c757d;
+    --gray-color-3: #e9ecef;
+    --black-color-2: #383838;
+
+    --black-opacity-color: rgba(45, 45, 45, 0.95);
+
+}
+
+::-webkit-scrollbar {
+
+    width: 5px;
+    background-color: var(--salt-color);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: var(--blue-color);
+
+}
+
+body{
+
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    background-color: var(--salt-color);
+
+}
+
+.common_cont{
+
+    width: 100%;
+    padding: 3.5rem 4.5%;
+
+}
+
+.single_height{
+
+    min-height: calc(100svh - 5.5rem);
+
+}
+
+.active {
+
+    color: var(--blue-color) !important;
+    background-color: var(--gray-color-3) !important;
+
+}
+
+/* ====== responsive-style ====== */
+
+@media only screen and (max-width: 700px){
+
+    .header_height {
+    
+        height: calc(100% - 5.25rem);
+
+    }
+
+}
+
+@media only screen and (max-width: 975px){
+
+    .single_height {
+    
+        height: 100%;
+
+    }
+
+}

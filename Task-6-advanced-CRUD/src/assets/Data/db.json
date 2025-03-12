@@ -1,0 +1,226 @@
+{
+  "fakeProducts": [
+    {
+      "id": "3",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-macbook-air-m2-starlight-202208?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1659114447434",
+      "name": "Apple MacBook Air M2",
+      "category": "Laptops",
+      "price": 1249,
+      "discount": 5,
+      "status": "In Stock"
+    },
+    {
+      "id": "4",
+      "img": "https://d1ncau8tqf99kp.cloudfront.net/converted/103364_original_local_1200x1050_v3_converted.webp",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Accessories",
+      "price": 399,
+      "discount": 15,
+      "status": "In Stock"
+    },
+    {
+      "id": "5",
+      "img": "https://www.egprices.com/images/md/logitech-mx-master-3s-wireless-performance-mouse-1.png",
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Accessories",
+      "price": 99,
+      "status": "In Stock"
+    },
+    {
+      "id": "6",
+      "img": "https://m.media-amazon.com/images/I/7166xhZmkFL._AC_SX425_.jpg",
+      "name": "Dell XPS 15",
+      "category": "Laptops",
+      "price": 1599,
+      "discount": 10,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "7",
+      "img": "https://m.media-amazon.com/images/I/71MHTD3uL4L._AC_SX679_.jpg",
+      "name": "Apple iPad Pro 12.9-inch",
+      "category": "Tablets",
+      "price": 1099,
+      "discount": 8,
+      "status": "In Stock"
+    },
+    {
+      "id": "8",
+      "img": "https://telfonak.com/wp-content/uploads/2023/08/samtabs9plus.jpg",
+      "name": "Samsung Galaxy Tab S9",
+      "category": "Tablets",
+      "price": 899,
+      "status": "In Stock"
+    },
+    {
+      "id": "9",
+      "img": "https://i5.walmartimages.com/seo/Apple-Watch-Series-8-GPS-41mm-Midnight-Aluminum-Case-with-Midnight-Sport-Band-M-L_fb596e0b-00d2-4bfa-bc49-1df2878c9c16.553383013f73fb9465bc9955e764952d.jpeg",
+      "name": "Apple Watch Series 8",
+      "category": "Wearables",
+      "price": 429,
+      "discount": 7,
+      "status": "In Stock"
+    },
+    {
+      "id": "10",
+      "img": "https://smartkoshk.com/cdn/shop/files/ps5-slim-model-hero-new.webp?v=1726950752",
+      "name": "Sony PlayStation 5",
+      "category": "Gaming",
+      "price": 499,
+      "discount": 5,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "11",
+      "img": "https://btech.com/media/catalog/product/cache/22b1bed05f04d71c4a848d770186c3c4/4/f/4f4abc581bbab7182bb5384da2198d3bdac6a6006845af451adf42ab57a0f279.webp",
+      "name": "Microsoft Xbox Series X",
+      "category": "Gaming",
+      "price": 499,
+      "status": "In Stock"
+    },
+    {
+      "id": "12",
+      "img": "https://www.virginmegastore.ae/medias/46824-main.jpg?context=bWFzdGVyfHJvb3R8MTMzODQ1fGltYWdlL2pwZWd8YUdFNUwyaGlPQzh4TURNd09ETTROamMxTURRNU5DODBOamd5TkY5ZmJXRnBiaTVxY0djfDQ3YzRlNTkzYjk2OGM4NzJkMmQ1ZTBjMjMyMTQ2MTFjZWZlNGRiZTRiNjVmYjQwZjAwNzg0N2FlNmYzNzYwYzQ",
+      "name": "Razer BlackWidow V4 Pro",
+      "category": "Accessories",
+      "price": 229,
+      "status": "In Stock"
+    },
+    {
+      "id": "13",
+      "img": "https://postperspective.com/wp-content/uploads/2022/10/GeForce-RTX4090-3QTR-Back-Left-1-624x423.jpg",
+      "name": "NVIDIA GeForce RTX 4090",
+      "category": "PC Components",
+      "price": 1599,
+      "discount": 12,
+      "status": "In Stock"
+    },
+    {
+      "id": "14",
+      "img": "https://i5.walmartimages.com/seo/Samsung-C49J89-49-Class-Double-Full-HD-DFHD-Curved-Screen-LCD-Monitor-32-9-Charcoal-Black-Hairline-Titanium_b62c999a-5477-43c3-8451-e36c9ecb9664.510d20398d027eeebeca51015644af1f.jpeg",
+      "name": "Samsung 49-inch Curved Monitor",
+      "category": "Monitors",
+      "price": 1299,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "15",
+      "img": "https://ennap.com/cdn/shop/files/google-pixel-7-pro-5g-google-pixel-7-pro-5g-ennap-com-5.png?v=1697851124&width=990",
+      "name": "Google Pixel 7 Pro",
+      "category": "Smartphones",
+      "price": 899,
+      "discount": 6,
+      "status": "In Stock"
+    },
+    {
+      "id": "16",
+      "img": "https://m.media-amazon.com/images/I/61XKKQJlw-L._AC_SX679_.jpg",
+      "name": "HP Spectre x360 16",
+      "category": "Laptops",
+      "price": 1699,
+      "discount": 10,
+      "status": "In Stock"
+    },
+    {
+      "id": "17",
+      "img": "https://i5.walmartimages.com/seo/Asus-ROG-Zephyrus-G14-14-Gaming-Laptop-AMD-Ryzen-9-5900HS-NVIDIA-GeForce-RTX-3060-6-GB-1TB-SSD-Windows-10-Pro-GA401QM-XS98Q-WH_a73a68d0-3e85-4a29-8391-ea0ba3cafab0.e7e8d9dfdfd3140a1d25bdfde7001b49.jpeg",
+      "name": "Asus ROG Zephyrus G14",
+      "category": "Laptops",
+      "price": 1599,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "18",
+      "img": "https://m.media-amazon.com/images/I/71jvbxyQ2TL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "name": "OnePlus 11 5G",
+      "category": "Smartphones",
+      "price": 749,
+      "discount": 5,
+      "status": "In Stock"
+    },
+    {
+      "id": "19",
+      "img": "https://lh3.googleusercontent.com/YATQU8CM4ON3bz1uqztjgCPvYV2QeaCqGRYzjFFd9xvEElQlkLn2QjTFbY5mc7GPHXf_EcuGboRADWsQSG_3T4azVHTvKiEd1E0=s700-w700-e365-rp",
+      "name": "Google Nest Hub Max",
+      "category": "Smart Home",
+      "price": 229,
+      "status": "In Stock"
+    },
+    {
+      "id": "20",
+      "img": "https://m.media-amazon.com/images/I/51qRS8hb-9L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "name": "Bose QuietComfort Earbuds II",
+      "category": "Accessories",
+      "price": 279,
+      "discount": 8,
+      "status": "In Stock"
+    },
+    {
+      "id": "21",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/eg/2208/gallery/eg-galaxy-watch5-pro-sm-r920nzkamea-533195669?$684_547_PNG$",
+      "name": "Samsung Galaxy Watch 5 Pro",
+      "category": "Wearables",
+      "price": 499,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "22",
+      "img": "https://www.ankerarabia.com/wp-content/uploads/2024/04/5_237d67dc-cc7b-4772-afff-ee5f27c6c76b_1200x-ezgif.com-webp-to-jpg-converter-1-768x768.jpg",
+      "name": "Anker Soundcore Motion+",
+      "category": "Audio",
+      "price": 180,
+      "discount": 15,
+      "status": "In Stock"
+    },
+    {
+      "id": "23",
+      "img": "https://cdn.supercommerce.io/kareem/uploads/1634812545_1667800-1645902132.jpg",
+      "name": "Sony A7 IV Mirrorless Camera",
+      "category": "Cameras",
+      "price": 2499,
+      "status": "In Stock"
+    },
+    {
+      "id": "24",
+      "img": "https://i.ebayimg.com/images/g/aWsAAOSwPgFkbG8~/s-l1600.jpg",
+      "name": "DJI Mini 3 Pro Drone",
+      "category": "Drones",
+      "price": 899,
+      "discount": 10,
+      "status": "In Stock"
+    },
+    {
+      "id": "25",
+      "img": "https://m.media-amazon.com/images/I/61Vc6qp4EwS._AC_SX679_.jpg",
+      "name": "Corsair K100 RGB Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 229,
+      "status": "In Stock"
+    },
+    {
+      "id": "26",
+      "img": "https://btech.com/media/catalog/product/cache/22b1bed05f04d71c4a848d770186c3c4/l/e/lenovo-legion-5-pro-i7-11800h-1tb-16-dos_1.webp",
+      "name": "Lenovo Legion 5 Pro",
+      "category": "Laptops",
+      "price": 1449,
+      "status": "Out of Stock"
+    },
+    {
+      "id": "27",
+      "img": "https://m.media-amazon.com/images/I/51DP3KlpiOL._AC_SX425_.jpg",
+      "name": "Amazon Kindle Paperwhite",
+      "category": "Tablets",
+      "price": 139,
+      "discount": 5,
+      "status": "In Stock"
+    },
+    {
+      "id": "28",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/africa_en/ls49cg954eaxxa/gallery/africa-en-odyssey-g9-g95c-ls49cg954eaxxa-538957462?$684_547_JPG$",
+      "name": "Samsung Odyssey G9 Gaming Monitor",
+      "category": "Monitors",
+      "price": 1499,
+      "status": "In Stock"
+    }
+  ]
+}
