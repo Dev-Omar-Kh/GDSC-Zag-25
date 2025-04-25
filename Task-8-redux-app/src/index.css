@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+:root {
+
+    --pink-color: #E072C1;
+    --white-color: #FFFFFF;
+    --black-color: #0B0B0B;
+    --violet-color: #523364;
+    --more-gray-color: #6F6C90;
+    --dark-gray-color: #656565;
+    --dark-white-color: #FCFEFF;
+    --light-gray-color: #A6A6A6;
+    --light-black-color: #1F1F1F;
+    --middle-gray-color: #323232;
+    --darker-gray-color: #3F3F3F;
+    --more-gray-color-2: #7E7E7E;
+    --more-gray-color-3: #464545;
+    --light-pink-color: #FFB9EB52;
+    --lighter-gray-color: #909090;
+    --lighter-black-color: #FFBDEC;
+
+    --light-violet-color: #ECEAEF;
+    --violet-opacity-color: rgba(82, 51, 100, 0.85);
+
+}
+
+body {
+
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    background-color: var(--white-color);
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 5px;
+    background-color: var(--white-color);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: var(--violet-color);
+
+}
+
+.common-padding{
+
+    padding: 1.25rem 4.5%;
+
+}
+
+.cart-card-w{
+
+    width: calc(100% - 5.625rem);
+
+}
+
+.cart-padding{
+    padding: 1.25rem;
+}
+
+.full-min-h-screen{
+
+    min-height: calc(100vh - 5.625rem);
+
+}
+
+/* ====== responsive-style ====== */
+
+@media only screen and (max-width: 600px) {
+
+    .cart-padding{
+        padding: 1.25rem 4.5%;
+    }
+
+}
